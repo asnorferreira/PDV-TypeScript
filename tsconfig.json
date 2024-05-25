@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2018",                                  
+    "lib": ["es2018", "dom"],                                   
+    "module": "commonjs",                  
+    "moduleResolution": "node10",
+    "typeRoots": [
+      "./src/@types"
+    ],      
+    "resolveJsonModule": true,                        
+    "allowJs": true,                                  
+    "outDir": "./dist", // ou build 
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                 
+    "noImplicitAny": true,
+
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
